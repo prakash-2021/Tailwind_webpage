@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+
+.transition{
+    transition: 5s
+}
+
+@media only screen and (width: 768px){
+    .container{
+        padding: 0 2em;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .container{
+        padding: 0 1em;
+    }
+
+    .flex__logo{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        margin: 0 2em;
+    }
+
+    .flex__logo img{
+        max-width: 50%
+    }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
