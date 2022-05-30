@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  
+
   <body class="bg-zinc-900">
     <section class="py-6 bg-zinc-900">
       <div class="container mx-auto">
@@ -19,17 +19,13 @@
             </div>
             <div class="">
               <ul class="flex lg:justify-evenly flex-col lg:flex-row bg-white lg:bg-zinc-900 items-center text-gray-400
-              absolute lg:static -top-96 w-3/4 lg:w-auto mt-8 right-10 md:right-24" id="navList">
+              absolute lg:static top w-3/4 lg:w-auto mt-8 lg:mt-0 right-10 md:right-24 text-xl" id="navList">
                 <li class="hover:text-white my-5 lg:mx-0 "><a href="#"> Article</a></li>
                 <li class="hover:text-white my-5 lg:mx-0 "><a href="#"> Chats</a></li>
                 <li class="hover:text-white my-5 lg:mx-0 "><a href="#"> Awards</a></li>
                 <li class="hover:text-white my-5 lg:mx-0 "><a href="#"> About</a></li>
                 <li>
-                  <button@media only screen and (width: 768px){
-                    .container{
-                        padding: 0 2em;
-                    }
-                }
+                  <button
                 class="px-6 py-3 bg-yellow-300 text-black text-xl hover:bg-yellow-200 tr duration-300 block lg:hidden my-5 lg:mx-0 ">
                 Get in touch</button>
                 </li>
@@ -52,7 +48,7 @@
           <h1 class="md:text-6xl text-4xl lg:mr-16">
             Helping companies build better, scalable software.
           </h1>
-          <p class="text-gray-400 text-md mt-5 lg:mr-72">
+          <p class="text-gray-400 mt-5 lg:mr-72 text-xl" >
             Award winnig web developer and author, with over 15+ years of
             working experience with forune 500 companies Apple, Google, Facebook
             and more.
@@ -60,7 +56,7 @@
         </div>
 
         <!-- Flex Logos -->
-        <div class="flex justify-between items-center flex__logo">
+        <div class="flex justify-between items-center flex__logo md:mb-20 lg:my-auto">
           <img
             src="./Developer Portfolio Starter Files/Assets/Logos/Walmart.svg"
             alt=""
@@ -72,11 +68,12 @@
           <img
             src="./Developer Portfolio Starter Files/Assets/Logos/Visa.svg"
             alt=""
-            class="my-5"
+            
           />
           <img
             src="./Developer Portfolio Starter Files/Assets/Logos/Tinder.svg"
             alt=""
+            class="my-5 lg:my-0"
           />
           <img
             src="./Developer Portfolio Starter Files/Assets/Logos/Samsung.svg"
@@ -89,41 +86,40 @@
         </div>
 
         <!-- flex images -->
-        <div class="mt-16 lg:grid grid-cols-2 gap-24">
-          <div>
+        <div class="flex__cards">
+          <div class = "card">
             <img
               src="./Developer Portfolio Starter Files/Assets/Spense.png"
-              class="w-full"
+              class="card__img"
               alt=""
             />
-            <div class="flex items-center gap-4">
-              <h2 class="text-white text-4xl my-3">Spense.com</h2>
-              '
-              <span class="mt-2"
+            <div class="card__headline">
+              <h2 class="">Spense.com</h2>
+              <span class="card__arrow"
                 ><img
                   src="./Developer Portfolio Starter Files/Assets/Logos/arrow-right .svg"
               /></span>
             </div>
-            <p class="text-gray-400 text-md">
+            <p class="text-gray-400 card__description text-xl">
               Rethinking that way writers get paid, an open source platform
               designed to help writers focus more on writing, and less on when
               and how they'll get paid. Project in collaborationwith Codewell.cc
             </p>
           </div>
-          <div class="my-10 lg:my-auto">
+          <div class="card">
             <img
               src="./Developer Portfolio Starter Files/Assets/YelpCamp.png"
-              class="w-full"
+              class="card__img"
               alt=""
             />
-            <div class="flex items-center gap-4">
-              <h2 class="text-white text-4xl my-3">YelpCamp.com</h2>
-              <span class="mt-2"
+            <div class="card__headline">
+              <h2>YelpCamp.com</h2>
+              <span class="card__arrow"
                 ><img
                   src="./Developer Portfolio Starter Files/Assets/Logos/arrow-right .svg"
               /></span>
             </div>
-            <p class="text-gray-400 text-md">
+            <p class="text-gray-400 card__description text-xl">
               Allowing backpack travelers to perfect plan their trip through an
               open-source platform similar to TripAdvisor. With over 1m MAU,
               YelpCamp has been the crowd;s favorite in 2021.
@@ -134,39 +130,40 @@
     </section>
 
     <!-- Gray section -->
-    <section class="py-6 bg-neutral-700">
+    <section class="py-12 bg-neutral-700">
       <div class="container mx-auto">
         <div class="lg:grid grid-cols-2 gap-24">
           <div>
-            <h2 class="text-white text-4xl my-3 lg:my-auto">
+            <h2 class="text-white text-4xl my-3">
               A co-founder at one of the world's largest communities.
             </h2>
-            <p class="text-gray-400 text-md">
+            <p class="text-gray-400 text-md text-xl">
               The combined experience | have working at the top Fortune 500
               companies has allowed me to developer a skillset that helps me in
               not just development, but in every aspect of any business.
-              <br /><br />
+              </p>
 
-              I'm proud to announce that | am now working at one of the world's
+              <p class="mt-5 text-gray-400 text-md text-xl"> I'm proud to announce that | am now working at one of the world's
               largest communities teaching young minds about how to sell
               yourself as a developer and open them to a whole new world of
               opportunities.
             </p>
           </div>
-          <div>
-            <p class="text-gray-400 text-md">
+          <div class="text-gray-400 text-md text-xl">
+            <p>
               As a developer, you have everything available to you and all
-              that's holding you back is yourself. <br /><br />
+              that's holding you back is yourself.
+              </p>
 
-              A quote | live by perfectly illustrates what | mean. <br /><br />
+              <p class="mt-5"> A quote | live by perfectly illustrates what | mean.</p>
 
-              “How big would you dream, if you knew you wouldn't fail?” You've
+              <p class="mt-5"> “How big would you dream, if you knew you wouldn't fail?” You've
               already gone through the hardest parts being a developer, it's
-              time to elevate your skills and become a leader <br /><br />
+              time to elevate your skills and become a leader</p>
 
-              in something you're passionate about. <br /><br />
+              <p class="mt-5"> in something you're passionate about.</p>
 
-              I'm happy to chat over coffee some time about how | can help your
+              <p class="mt-5"> I'm happy to chat over coffee some time about how | can help your
               company.
             </p>
           </div>
@@ -178,7 +175,7 @@
       <div class="container mx-auto lg:grid grid-cols-2 gap-24">
         <div>
           <h2 class="text-white text-4xl">Interested in working with me?</h2>
-          <p class="text-gray-400 text-md my-5">
+          <p class="text-gray-400 text-md my-5 text-xl">
             I'm active on all social media platforms listed below, but you can
             also me an email and I will get back to you within 24-48 hours.
           </p>
