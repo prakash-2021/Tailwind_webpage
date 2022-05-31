@@ -7,16 +7,6 @@
     font-family: 'Tiro Devanagari Sanskrit', serif;
 }
 
-.transition{
-    transition: 5s
-}
-
-/* .flex__cards{
-    display: flex;
-    gap: 6rem;
-    margin: 2.5em 0;
-} */
-
 .card__img{
     width: 100%;
 }
@@ -51,10 +41,6 @@
 }
     @media only screen and (max-width: 850px) {
 
-  .flex__cards{
-    flex-direction: column;
-    gap: 4rem;
-}
 }
 
 @media only screen and (width: 768px){
