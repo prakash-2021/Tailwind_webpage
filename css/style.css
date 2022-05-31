@@ -11,15 +11,12 @@
     transition: 5s
 }
 
-.flex__cards{
+/* .flex__cards{
     display: flex;
-    /* justify-content: space-between; */
     gap: 6rem;
     margin: 2.5em 0;
-}
-.card{
-    flex: 1;
-}
+} */
+
 .card__img{
     width: 100%;
 }
